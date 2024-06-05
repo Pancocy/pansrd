@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Carton';
+  src: url('fonts/Carton.otf');
+  font-family: 'Abalon';
+  src: url('/fonts/Abalone Smile.otf');
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.VPNav .VPNavBarTitle a img {
+  border-radius: 50%;
+}
+.VPNav .VPNavBarTitle a span {
+  background-image: -webkit-linear-gradient(150deg, rgba(248, 92, 60, 0.99) 50%, #7dd5ea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Carton !important;
+}
+.nav .group .VPSidebarItem .item h2 {
+  font-weight: 500;
+  font-family: 'Abalon';
+}
+.nav .group .VPSidebarItem .items > div a :hover {
+  color: tomato !important;
+}
+.nav .group .VPSidebarItem .items > div p {
+  font-family: 'Carton';
+}
+.VPHero .container {
+  margin: unset;
+}
+.VPFeatures .container {
+  margin: unset;
+  display: flex;
+  justify-content: space-between;
+  max-width: unset;
+}
+.VPDocAside .content .outline-marker {
+  background-color: tomato !important;
+}
+.VPDocAside .content .outline-title:hover {
+  color: tomato !important;
+}
+.VPNav .VPNavBar .wrapper .container {
+  margin: 0 48px !important;
+}
+/*# sourceMappingURL=custom.css.map */

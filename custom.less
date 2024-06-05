@@ -22,7 +22,7 @@
   .item{
     h2{
       font-weight: 500;
-      font-family: 'Abalon';
+      font-family: 'Carton';
     }
   }
   .items > div{
@@ -55,5 +55,62 @@
   }
 }
 .VPNav .VPNavBar .wrapper .container{
-  margin: 0 48px !important;
+  max-width: unset !important;
+}
+.VPNav .VPNavBar .wrapper .container .content .content-body .VPNavBarMenu >a:hover{
+  color: tomato;
+}
+@media (min-width: 1440px) {
+  .VPContent.has-sidebar{
+    padding-left: 240px !important;
+  }
+  .VPSidebar{
+    width: 240px !important;
+  }
+  .VPNavBar.has-sidebar div.wrapper{
+    padding: 0 32px !important;
+  }
+  .VPNavBar.has-sidebar div.title{
+    padding-left: 32px !important;
+  }
+  .VPNavBar.has-sidebar div.content{
+    padding-right: 0 !important;
+  }
+  .VPSidebar{
+    padding-left: 32px !important;
+    padding-right: 0px !important;
+  }
+}
+.VPDoc{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.VPDoc.has-aside .content-container{
+  max-width: 760px !important;
+}
+.VPSidebar #VPSidebarNav > div.group > section >div.items .VPSidebarItem{
+  margin: 5px 0;
+}
+
+.VPSidebar #VPSidebarNav > div.group > section {
+  padding-bottom: 5px !important;
+  >div.items .VPSidebarItem:hover{
+    background-color: rgba(204, 202, 202, 0.32);
+    border-radius: 10px;
+    padding: 0 10px;
+    .indicator{
+      background-color: tomato;
+    }
+  }
+  >div.items div.has-active{
+    background-color: rgba(204, 202, 202, 0.32);
+    border-radius: 10px;
+    padding: 0 10px;
+    .indicator{
+      background-color: tomato;
+    }
+    .link p{
+      color: tomato;
+    }
+  }
 }

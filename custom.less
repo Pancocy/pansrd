@@ -1,3 +1,6 @@
+* .VPDoc{
+  font-family: VPui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Cantarell,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
 @font-face {
   font-family: 'Carton';
   src: url('fonts/Carton.otf');
@@ -56,6 +59,7 @@
 }
 .VPNav .VPNavBar .wrapper .container{
   max-width: unset !important;
+  background-color: var(--vp-c-bg);
 }
 .VPNav .VPNavBar .wrapper .container .content .content-body .VPNavBarMenu >a:hover{
   color: tomato;
@@ -114,3 +118,21 @@
     }
   }
 }
+.VPContent.has-sidebar{
+  padding: 0 20px;
+}
+.vp-doc div[class*='language-'], .vp-block {
+  margin: 16px 0px !important;
+}
+@media (min-width: 960px) {
+  .VPDoc[data-v-a956cc42] {
+    padding: 85px 32px 0;
+  }
+}
+.VPDocFooter .prev-next .pager .VPLink:hover{
+  border: 1px solid tomato;
+}
+.VPDocFooter .prev-next .pager .VPLink .title{
+  color: tomato;
+}
+

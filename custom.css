@@ -122,4 +122,40 @@
 .VPDocFooter .prev-next .pager .VPLink .title {
   color: tomato;
 }
+.vp-doc blockquote {
+  border-left: 2px solid tomato !important;
+}
+.VPDoc h1 {
+  font-size: 28px;
+  padding-left: 5px;
+  margin: 15px 0;
+}
+.VPDoc h2 {
+  font-size: 24px;
+  padding-left: 10px;
+  margin: 15px 0;
+}
+.VPDoc h3 {
+  font-size: 20px;
+  padding-left: 15px;
+  margin: 15px 0;
+}
+.VPDoc h4 {
+  font-size: 16px;
+  padding-left: 20px;
+  margin: 15px 0;
+}
+.VPDoc h5 {
+  font-size: 14px;
+  padding-left: 25px;
+  margin: 15px 0;
+}
+.VPDoc h6 {
+  font-size: 12px;
+  padding-left: 30px;
+  margin: 15px 0;
+}
+.nested li a.active {
+  color: tomato !important;
+}
 /*# sourceMappingURL=custom.css.map */

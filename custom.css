@@ -112,8 +112,8 @@
   margin: 16px 0px !important;
 }
 @media (min-width: 960px) {
-  .VPDoc[data-v-a956cc42] {
-    padding: 85px 32px 0;
+  .VPDoc {
+    padding: 85px 32px 0 !important;
   }
 }
 .VPDocFooter .prev-next .pager .VPLink:hover {

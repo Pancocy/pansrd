@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a,a4 as o}from"./chunks/framework.ByxKXAtA.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"datastru/index.md","filePath":"datastru/index.md"}'),l={name:"datastru/index.md"},r=o("",5),s=[r];function i(n,_,c,p,d,m){return a(),e("div",null,s)}const f=t(l,[["render",i]]);export{u as __pageData,f as default};

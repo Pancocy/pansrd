@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a,a4 as o}from"./chunks/framework.Bzt5SQa6.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"datastru/index.md","filePath":"datastru/index.md"}'),r={name:"datastru/index.md"},s=o("",5),l=[s];function i(n,_,c,p,d,m){return a(),e("div",null,l)}const f=t(r,[["render",i]]);export{h as __pageData,f as default};

@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as r}from"./chunks/framework.Dcoxob_B.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"rust/chapter2/所有权.md","filePath":"rust/chapter2/所有权.md"}'),a={name:"rust/chapter2/所有权.md"};function s(c,o,n,p,_,d){return t(),r("div")}const f=e(a,[["render",s]]);export{m as __pageData,f as default};

@@ -126,9 +126,8 @@
   color: tomato;
 }
 .vp-doc blockquote {
-  border: 2px solid tomato !important;
-  padding: 15px;
   border-radius: 15px;
+  border: 2px solid tomato !important;
 }
 .VPDoc h1 {
   font-size: 28px;
